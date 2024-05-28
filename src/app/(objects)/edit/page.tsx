@@ -34,6 +34,7 @@ export default function EditObjectPage() {
   }
 
   if (!data) return <Skeleton />;
+  if (!data) return <Skeleton />;
   return (
     <div className="text-white space-y-12 p-4 lg:p-8">
       <button
