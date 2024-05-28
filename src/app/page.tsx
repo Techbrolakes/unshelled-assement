@@ -31,7 +31,7 @@ export default function HomePage() {
     <div className="text-white min-h-screen space-y-14 py-4">
       <h1 className="text-3xl">List of objects</h1>
 
-      <section className="grid grid-cols-3 gap-10">
+      <section className="grid grid-cols-1 lg:grid-cols-3 gap-10">
         {data?.posts?.map(({ _id, name, color, createdAt }: any) => (
           <div
             onClick={() => router.push(`/${_id}`)}
